@@ -1,3 +1,5 @@
+/*  Light switch  */
+
 document.getElementById("img").addEventListener("click", function () {
   if (
     document.getElementById("img").src ===
