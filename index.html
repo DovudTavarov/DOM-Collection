@@ -8,7 +8,7 @@
   </head>
   <body>
     <!-- Light switch -->
-    <div>
+    <div class="light-cont">
       <img
         id="img"
         src="
@@ -18,6 +18,18 @@
     </div>
 
     <!--  Pass a Message -->
+    <div class="mess-cont">
+      <div class="mess-box">
+        <h4>A Message You Would Like To Pass</h4>
+        <input id="text" type="text" />
+        <br />
+        <button id="submit" onclick="onSubmit()">Submit</button>
+        <h4>Last Message Delivered</h4>
+        <div id="result"></div>
+      </div>
+    </div>
+
+    <!-- Word Count -->
     <div></div>
     <script src="main.js"></script>
   </body>
