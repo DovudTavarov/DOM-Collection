@@ -120,3 +120,34 @@ body {
   width: 200px;
   font-size: 15px;
 }
+
+/* Counter */
+
+.counter-cont {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.counter-box {
+  text-align: center;
+}
+.counter-box h1 {
+  font-size: 50px;
+}
+
+#counter-result {
+  font-size: 50px;
+}
+.counter-btn {
+  font-size: 15px;
+  border: solid 2px black;
+  border-radius: 8px;
+  background-color: white;
+  margin: 30px 8px;
+}
+.counter-btn:hover {
+  background-color: black;
+  color: white;
+}

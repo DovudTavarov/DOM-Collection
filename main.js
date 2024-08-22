@@ -50,3 +50,19 @@ const submit = () => {
     "#totalTip"
   ).innerHTML = `<h5>TIP AMOUNT</h5><div>${total}$</div><h5>each</h5>`;
 };
+
+/* Counter */
+
+const decrease = () => {
+  const curNum = Number(document.querySelector("#counter-result").innerHTML);
+  document.querySelector("#counter-result").innerHTML = curNum - 1;
+};
+
+const increase = () => {
+  const curNum = Number(document.querySelector("#counter-result").innerHTML);
+  document.querySelector("#counter-result").innerHTML = curNum + 1;
+};
+
+const reset = () => {
+  document.querySelector("#counter-result").innerHTML = 0;
+};
