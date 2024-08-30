@@ -92,3 +92,32 @@ votingBtn3.addEventListener("click", function () {
   counter3++;
   votingCount3.innerHTML = counter3;
 });
+
+/* Todo List */
+
+const todoText = document.getElementById("todo-text");
+const todoSub = document.getElementById("todo-submit");
+const todoList = document.getElementById("todo-list");
+const todoClear = document.getElementById("todo-clear");
+
+todoSub.addEventListener("click", function onSub() {
+  todoList.innerHTML += `<li>${todoText.value}</li>`;
+  todoText.value = "";
+});
+
+todoClear.addEventListener("click", function () {
+  todoList.innerHTML = "";
+});
+
+/* Toggle password*/
+
+const passwordText = document.getElementById("password");
+const showPassword = document.getElementById("show-pas");
+
+showPassword.addEventListener("click", function () {
+  if (showPassword.checked === true) {
+    passwordText.setAttribute("type", "text");
+  } else {
+    passwordText.setAttribute("type", "password");
+  }
+});
