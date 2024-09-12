@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+.tip-cont {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, black, red);
+}
+.tip-box {
+  background-color: white;
+  width: 350px;
+  height: 500px;
+  border-radius: 20px;
+  padding: 15px;
+  border: 1px solid black;
+}
+.head {
+  text-align: center;
+  background-color: rgb(64, 0, 0);
+  color: white;
+  width: 350px;
+}
+#tip-btn {
+  margin-top: 10px;
+  padding: 15px 30px;
+  background-color: rgb(161, 2, 2);
+  color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+#amount,
+#people {
+  height: 30px;
+  width: 200px;
+  font-size: 15px;
+}
